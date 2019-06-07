@@ -1,0 +1,30 @@
+/** CONTACT **/
+.contact-section {
+  color: $color-secondary;
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0;
+  align-items: center;
+  
+  
+  span, a {
+    margin: 15px 0;
+    color: $color-secondary;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: $color-primary;
+    
+    &:hover {
+      color: $color-tertiary;
+    }
+  }
+  
+}
+
+

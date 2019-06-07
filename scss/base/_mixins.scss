@@ -1,0 +1,10 @@
+/*  ============================
+      MIXINS
+    ============================  */
+
+@mixin text($size, $family: null, $weight: null, $color: null) {
+  font-size: $size;
+  font-family: $family;
+  font-weight: $weight;
+  color: $color;
+}

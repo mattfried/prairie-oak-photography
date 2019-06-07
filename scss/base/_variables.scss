@@ -1,0 +1,16 @@
+/*  ============================
+      VARIABLES
+    ============================  */
+
+/* --MEDIA QUERIES-- */
+$brk-xs: 'screen and (min-width: 600px)';
+$brk-sm: 'screen and (min-width: 750px)';
+$brk-md: 'screen and (min-width: 900px)';
+$brk-lg: 'screen and (min-width: 1000px)';
+$brk-xl: 'screen and (min-width: 1200px)';
+
+
+// or use a mixin to pass a value to opacity??
+$color-primary: rgb(125, 125, 125);
+$color-secondary: rgb(75, 75, 75);
+$color-tertiary: rgb(25, 25, 25);

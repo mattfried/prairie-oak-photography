@@ -1,0 +1,36 @@
+// Center text
+%centered {
+  text-align: center;
+}
+
+
+// Absolute center content
+%Abs-centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Non-Transparent
+%non-transp {
+  opacity: 1;
+}
+
+// Transparent
+%transp {
+  opacity: 0;
+}
+
+// Navbar & Footer Links
+%nav-link {
+  display: block;
+  text-decoration: none;
+  color: rgb(125, 125, 125);
+  background-color: white;
+  padding: 15px;
+  width: 60%;
+  margin: 0 auto;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  cursor: pointer;
+}

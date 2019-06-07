@@ -1,0 +1,42 @@
+.arrow {
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+  padding: 20px 10px;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+#left-arrow,
+#left-arrow-portfolio,
+#right-arrow,
+#right-arrow-portfolio {
+  position: absolute;
+  top: 50%;
+  height: 3.75em;
+
+  @media #{$brk-sm} {
+    height: 4em;
+  }
+
+  @media #{$brk-md} {
+    height: 4.25em;
+  }
+
+  @media #{$brk-lg} {
+    height: 5em;
+  }
+}
+
+#left-arrow,
+#left-arrow-portfolio {
+  left: 4%;
+  transform: translate(-50%, -50%);
+}
+
+#right-arrow,
+#right-arrow-portfolio {
+  right: 4%;
+  transform: translate(50%, -50%);
+}

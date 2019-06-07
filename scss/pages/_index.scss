@@ -1,0 +1,41 @@
+/** INDEX IMAGE SLIDESHOW **/
+.image-slides {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.slideshow-circles {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: solid 1px rgba(255, 255, 255, 0.7);
+  transition: background-color 1s ease-in-out;
+
+  /********************
+  make circles smaller for iphones,
+  and keep this size (15px) for larger screens
+  ************************/
+}
+
+.dot {
+  background-color: rgba(255, 255, 255, 0.6);
+}

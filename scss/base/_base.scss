@@ -1,0 +1,33 @@
+/*  ============================
+      BASE STYLES
+    ============================  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.125em;
+
+  @media #{$brk-lg} {
+    font-size: 1em;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.125em;
+}

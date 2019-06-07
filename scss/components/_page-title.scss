@@ -1,0 +1,37 @@
+/** PAGE TITLE **/
+.title {
+  &-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    object-fit: cover;
+  }
+
+  &-line {
+    width: 1.75em;
+    border-top: solid 2px white;
+    margin: 0 auto;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+  }
+}
+
+.page-title {
+  font-size: 2em;
+  color: white;
+  margin: 0;
+  padding-bottom: 8px;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+
+  @media #{$brk-lg} {
+    font-size: 2.5em;
+  }
+}
