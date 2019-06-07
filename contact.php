@@ -20,9 +20,9 @@
       <main class="contact-section">
         <h4>For general or booking inquiries please contact me:</h4>
         <div class="contact-links">
-          <span>Winnipeg, Manitoba</span>
           <a href="mailto:prairieoakphotography@gmail.com">prairieoakphotography@gmail.com</a>
           <a href="tel:1-204-899-2285">1 (204) 899-2285</a>
+          <span>Winnipeg, MB, CA</span>
         </div>
 
         <p>Thank You! I will respond to emails within 24-48 hours.</p>
