@@ -1,0 +1,8 @@
+# Don't track these img folders:
+
+/img/graduation/
+/img/engagement/
+/img/wedding/
+/img/maternity/
+/img/newborn/
+/img/family/
