@@ -27,10 +27,11 @@
           <div class="dropdown">
               <a id="portfolio-link" tabindex="0">Portfolio</a>
             <div class="dropdown-content">
+              <a href="../graduation.php">Graduation</a>
               <a href="../engagement.php">Engagement</a>
               <a href="../wedding.php">Wedding</a>
               <a href="../maternity.php">Maternity</a>
-              <a href="../baby.php">Baby</a>
+              <a href="../newborn.php">Newborn</a>
               <a href="../family.php">Family</a>
             </div>
           </div>
