@@ -19,7 +19,7 @@
       <!-- ABOUT SECTION -->
       <main class="about-section">
         <section>
-          <h2>Past and Present:</h2>
+          <h2>Past &amp; Present:</h2>
           <p>
             Coming soon..
           </p>
