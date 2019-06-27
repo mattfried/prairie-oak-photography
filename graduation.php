@@ -3,6 +3,8 @@
       $title = 'Portfolio | Prairie Oak Photography';
       $pageTitle = 'Graduation';
       $arrows = true;
+      $portfolio = true;
+
       // HEADER
       include('inc/header.php');
     ?>

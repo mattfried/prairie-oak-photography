@@ -3,6 +3,8 @@
       $title = 'Pricing | Prairie Oak Photography';
       $pageTitle = 'Pricing';
       $titleImg = 'titleImgExample2.jpg';
+      $portfolio = false;
+      
       //HEADER
       include('inc/header.php');
     ?>

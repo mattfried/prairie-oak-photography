@@ -1,4 +1,9 @@
-<div class="title-img-container">
+<?php if ($portfolio === true) {
+  echo '<div class="title-img-container-port">';
+} else {
+  echo '<div class="title-img-container">';
+} ?>
+
   <img class="title-img" id="title-img" src="../img/<?php echo $titleImg;?>" alt="" />
   <div class="page-title-container">
     <h1 class="page-title" id ="page-title">

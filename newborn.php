@@ -3,6 +3,8 @@
       $title = 'Portfolio | Prairie Oak Photography';
       $pageTitle = 'Newborn';
       $arrows = true;
+      $portfolio = true;
+      
       // HEADER
       include('inc/header.php');
     ?>

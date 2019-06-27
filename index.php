@@ -2,6 +2,8 @@
       // PHP variables for PHP include files
       $title = 'Prairie Oak Photography';
       $pageTitle = 'Welcome';
+      $portfolio = false;
+      
       // HEADER
       include('inc/header.php');
     ?>
