@@ -34,4 +34,12 @@
   @media #{$brk-lg} {
     font-size: 2.5em;
   }
+
+  @media #{$brk-xl} {
+    font-size: 2.75em;
+  }
+
+  @media #{$brk-2xl} {
+    font-size: 3em;
+  }
 }

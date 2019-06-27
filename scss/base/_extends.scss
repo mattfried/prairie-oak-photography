@@ -34,3 +34,36 @@
   transition: color 0.2s ease-out, background-color 0.2s ease-out;
   cursor: pointer;
 }
+
+// Page title styles & heights
+// applies to all pages that are NOT portfolio
+%not-port-container-ht {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 225px;
+
+  @media #{$brk-xs} {
+    height: 300px;
+  }
+
+  @media #{$brk-sm} {
+    height: 325px;
+  }
+
+  @media #{$brk-lg} {
+    height: 375px;
+  }
+
+  @media #{$brk-xl} {
+    height: 400px;
+  }
+
+  @media #{$brk-2xl} {
+    height: 525px;
+  }
+
+  @media #{$brk-3xl} {
+    height: 650px;
+  }
+}
