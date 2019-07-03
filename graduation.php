@@ -24,11 +24,11 @@
       <img class="portfolio-img" src="img/graduation/grad-03.jpg" alt="smiling girl in dress leaning on fallen wood branches" />
       <img class="portfolio-img" src="img/graduation/grad-04.jpg" alt="girl in dress in posing in woods" />
       <img class="portfolio-img" src="img/graduation/grad-05.jpg" alt="smiling girl in dress leaning up against tree" />
-      <img class="portfolio-img" src="img/graduation/grad-06.jpg" alt="smiling boy dressed in graduation gown leaning up against tree" />
-      <img class="portfolio-img" src="img/graduation/grad-07.jpg" alt="smiling boy in suit and tie leaning up against tree" />
-      <img class="portfolio-img" src="img/graduation/grad-08.jpg" alt="girl in dress holding bow and arrow in old rustic barn" />
-      <img class="portfolio-img" src="img/graduation/grad-09.jpg" alt="close up face shot of dressed up girl" />
-      <img class="portfolio-img" src="img/graduation/grad-10.jpg" alt="smiling girl in dress posing in natural background" />
+      <img class="portfolio-img" src="img/graduation/grad-06.jpg" alt="smiling girl in dress posing in natural background" />
+      <img class="portfolio-img" src="img/graduation/grad-07.jpg" alt="close up face shot of dressed up girl" />
+      <img class="portfolio-img" src="img/graduation/grad-08.jpg" alt="smiling boy dressed in graduation gown leaning up against tree" />
+      <img class="portfolio-img" src="img/graduation/grad-09.jpg" alt="smiling boy in suit and tie leaning up against tree" />
+      <img class="portfolio-img" src="img/graduation/grad-10.jpg" alt="girl in dress holding bow and arrow in old rustic barn" />
       <img class="portfolio-img" src="img/graduation/grad-11.jpg" alt="girl in dress posing in natural background" />
       <img class="portfolio-img" src="img/graduation/grad-12.jpg" alt="girl holding her dress posing in natural background" />
       <!-- /ENGAGEMENT IMAGES -->
