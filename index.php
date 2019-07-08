@@ -3,7 +3,7 @@
       $title = 'Prairie Oak Photography';
       $pageTitle = 'Welcome';
       $portfolio = false;
-      
+
       // HEADER
       include('inc/header.php');
     ?>
@@ -13,7 +13,7 @@
     <div id="slideshow-container" class="slideshow-container">
 
       <!--  IMAGES  -->
-      <img class="image-slides" src="img/sample1.jpeg" alt="" />
+      <img class="image-slides" src="img/wedding-01.jpeg" alt="groom holding bride with pacific ocean behind" />
       <img class="image-slides" src="img/sample2.jpeg" alt="" />
       <img class="image-slides" src="img/sample3.jpeg" alt="" />
       <!--  /IMAGES  -->
