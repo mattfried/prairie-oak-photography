@@ -1,1 +1,14 @@
 /** PRICING **/
+.pricing-section {
+  color: $color-secondary;
+  text-align: center;
+
+  a {
+    text-decoration: underline;
+    color: inherit;
+
+    &:hover {
+      color: $color-tertiary;
+    }
+  }
+}

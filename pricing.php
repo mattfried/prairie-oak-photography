@@ -4,7 +4,7 @@
       $pageTitle = 'Pricing';
       $titleImg = 'titleImgExample2.jpg';
       $portfolio = false;
-      
+
       //HEADER
       include('inc/header.php');
     ?>
@@ -19,7 +19,9 @@
 
 
       <!-- PRICING SECTION -->
-
+      <main class="pricing-section">
+        <p>Standard pricing packages coming soon... please <a href="../contact.php">contact me</a> with your inquiries.</p>
+      </main>
 
 
     </div>

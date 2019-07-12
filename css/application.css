@@ -552,6 +552,18 @@ footer {
 }
 
 /** PRICING **/
+.pricing-section {
+  color: #4b4b4b;
+  text-align: center;
+}
+.pricing-section a {
+  text-decoration: underline;
+  color: inherit;
+}
+.pricing-section a:hover {
+  color: #191919;
+}
+
 /** CONTACT **/
 .contact-section {
   color: #4b4b4b;
