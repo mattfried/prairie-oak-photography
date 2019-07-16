@@ -19,9 +19,18 @@
 
 
       <!-- ENGAGEMENT IMAGES -->
-      <img class="portfolio-img" src="img/sample1.jpeg" alt="" />
-      <img class="portfolio-img" src="img/sample2.jpeg" alt="" />
-      <img class="portfolio-img" src="img/sample3.jpeg" alt="" />
+      <img class="portfolio-img" src="img/engagement/eng-01.jpg" alt="engaged couple holding each other laughing in snowy field" />
+      <img class="portfolio-img" src="img/engagement/eng-02.jpg" alt="engaged couple sitting on square hay bail kissing each other" />
+      <img class="portfolio-img" src="img/engagement/eng-03.jpg" alt="bride to be holding her ring and letters in hand which spell love" />
+      <img class="portfolio-img" src="img/engagement/eng-04.jpg" alt="engaged couple holding each other close in snowy field" />
+      <img class="portfolio-img" src="img/engagement/eng-05.jpg" alt="engagement ring hanging on pine cones laying on snowy ground" />
+      <img class="portfolio-img" src="img/engagement/eng-06.jpg" alt="engaged couple holding each other laughin in snowy field" />
+      <img class="portfolio-img" src="img/engagement/eng-07.jpg" alt="engaged couple standing in snowy field snuggling under warm blanket" />
+      <img class="portfolio-img" src="img/engagement/eng-08.jpg" alt="engaged couple kissing under blanket while holding dog" />
+      <img class="portfolio-img" src="img/engagement/eng-09.jpg" alt="engaged couple sitting in snowy field gazing into each others eyes" />
+      <img class="portfolio-img" src="img/engagement/eng-10.jpg" alt="engaged couple standing in snowy field under warm blanket" />
+      <img class="portfolio-img" src="img/engagement/eng-11.jpg" alt="engaged couple holding each other close uner warm blanket in snowy field" />
+      <img class="portfolio-img" src="img/engagement/eng-12.jpg" alt="engaged couple holding each other close in snowy field" />
       <!-- /ENGAGEMENT IMAGES -->
 
       <!--  PREVIEW ROW (need to match # of 'rect' <span> elements to the # of IMAGES)  -->
