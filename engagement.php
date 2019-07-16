@@ -38,6 +38,15 @@
         <span class="preview target"></span>
         <span class="preview"></span>
         <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
+        <span class="preview"></span>
       </div>
       <!--  /PREVIEW ROW  -->
 
