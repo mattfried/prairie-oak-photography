@@ -34,7 +34,8 @@
         <div class="title-line"></div>
       </div>
 
-      <!--  CIRCLES (revise # of 'circle' <span> elements
+      <!--  CIRCLES -->
+      <!--(revise # of 'circle' <span> elements
       to match the # of 'slide-images' above)  -->
       <div class="slideshow-circles">
         <span class="circle dot" id="firstCircle"></span>

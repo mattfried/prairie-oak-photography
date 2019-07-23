@@ -33,7 +33,8 @@
       <img class="portfolio-img" src="img/engagement/eng-12.jpg" alt="engaged couple holding each other close in snowy field" />
       <!-- /ENGAGEMENT IMAGES -->
 
-      <!--  PREVIEW ROW (need to match # of 'rect' <span> elements to the # of IMAGES)  -->
+      <!--  PREVIEW ROW  -->
+      <!-- (need to match # of 'rect' <span> elements to the # of IMAGES) -->
       <div class="preview-row">
         <span class="preview target"></span>
         <span class="preview"></span>

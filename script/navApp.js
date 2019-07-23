@@ -6,12 +6,20 @@ const dropdownContent = document.querySelector('.dropdown-content');
 
 document.addEventListener('click', e => {
   const target = e.target;
+  // check if portfolio tab is selected
   if (target == portfolioLink) {
+    // make portfolio drop down sub-menu appear
     dropdownContent.classList.toggle('appear');
+    // hide pricing & contact tabs when portfolio sub-menu is dropped
+    // this only applies for smaller devices, when nav bar is vertically stacked
     pricingLink.classList.toggle('hide-under-600');
     contactLink.classList.toggle('hide-under-600');
   } else {
+    // if clicked anywhere else outside of portfolio tab
+    // hide portfolio drop down sub-menu
     dropdownContent.classList.remove('appear');
+    // unhide pricing & contact tabs
+    // this only applies for smaller divices, when nav bar is vertically stacked
     pricingLink.classList.remove('hide-under-600');
     contactLink.classList.remove('hide-under-600');
   }
@@ -32,7 +40,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 ( () => {
-  
+
 	const backTop = document.getElementById('to-top'),
       scrollDuration = 700;
 
@@ -43,13 +51,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			(!window.requestAnimationFrame) ? window.scrollTo(0, 0) : scrollTop(scrollDuration);
 		});
 	}
-	
+
 	const scrollTop = duration => {
 	    let start = window.scrollY || document.documentElement.scrollTop,
 	        currentTime = null;
-	        
+
 	    const animateScroll = timestamp => {
-	    	if (!currentTime) currentTime = timestamp;        
+	    	if (!currentTime) currentTime = timestamp;
 	        const progress = timestamp - currentTime;
 	        const val = Math.max(Math.easeInOutQuad(progress, start, -start, duration), 0);
 	        window.scrollTo(0, val);

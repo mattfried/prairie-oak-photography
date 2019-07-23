@@ -33,7 +33,8 @@
       <img class="portfolio-img" src="img/graduation/grad-12.jpg" alt="girl holding her dress posing in natural background" />
       <!-- /GRADUATION IMAGES -->
 
-      <!--  PREVIEW ROW (need to match # of 'rect' <span> elements to the # of IMAGES)  -->
+      <!--  PREVIEW ROW  -->
+      <!-- (need to match # of 'rect' <span> elements to the # of IMAGES) -->
       <div class="preview-row">
         <span class="preview target"></span>
         <span class="preview"></span>

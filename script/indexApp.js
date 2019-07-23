@@ -16,7 +16,7 @@ const hideImages = () => {
 }
 
 
-// REMOVE ALL 'dot' CLASSES FROM 'circle' <span> ELEMENTS FUNCTION
+// REMOVE ALL FILLED 'dot' CLASSES FROM 'circle' <span> ELEMENTS FUNCTION
 const removeDots = () => {
   for (let i = 0; i < imageSlides.length; i++) {
     circles[i].classList.remove('dot');
@@ -42,12 +42,16 @@ const arrowClick = e => {
   // left arrow
   if (target == leftArrow) {
     //console.log('left');
+    // remove automatic slideshow interval
     clearInterval(imageSlideshowInterval);
+    // hide images
     hideImages();
+    // remove filled 'dot' classes
     removeDots();
     if (counter == 1) {
       //console.log('that was the first image, loop to the last image');
       counter = (imageSlides.length - 1);
+      // loop back to last image & corresponding filled 'dot'
       imageLoop();
       // reset the automatic slideshow interval
       imageSlideshowInterval = setInterval(slideshow, 8000);
@@ -55,6 +59,7 @@ const arrowClick = e => {
       //console.log('previous image');
       counter--;
       counter--;
+      // switch to previous image & corresponding filled 'dot'
       imageLoop();
       // reset the automatic slideshow interval
       imageSlideshowInterval = setInterval(slideshow, 8000);
@@ -63,17 +68,22 @@ const arrowClick = e => {
   // right arrow
   else if (target == rightArrow) {
     //console.log('right');
+    // remove the automatic slideshow interval
     clearInterval(imageSlideshowInterval);
+    // hide images
     hideImages();
+    // remove filled 'dot' classes
     removeDots();
     if (counter == imageSlides.length) {
       //console.log('that was the last image, loop to the first image');
       counter = 0;
+      // loop back to first image & corresponding filled 'dot'
       imageLoop();
       // reset the automatic slideshow interval
       imageSlideshowInterval = setInterval(slideshow, 8000);
     } else {
       //console.log('next image');
+      // switch to next image & corresponding filled 'dot'
       imageLoop();
       // reset the automatic slideshow interval
       imageSlideshowInterval = setInterval(slideshow, 8000);
@@ -94,7 +104,7 @@ const slideshow = () => {
   } else {
     // loop slideshow, go back to the first image & dot
     counter = 0;
-    // call this function, hide all images
+    // hide images
     hideImages();
     // loop to next image & dot
     imageLoop();
@@ -105,6 +115,3 @@ const slideshow = () => {
 // SHOW FIRST IMAGE AFTER 1 SECOND TIMEOUT, & THEN SET & CALL SLIDESHOW INTERVAL EVERY 8 SECONDS AFTER THAT
 setTimeout(slideshow, 1000);
 let imageSlideshowInterval = setInterval(slideshow, 8000);
-
-
-/* ***** RENAME ALL FUNCTIONS, VARIABLES ETC?!?!! ***** */

@@ -33,7 +33,8 @@
   <img class="portfolio-img" src="img/maternity/mat-12.jpg" alt="husband kissing and holding pregnant wife by tree shrubs" />
   <!-- /MATERNITY IMAGES -->
 
-  <!--  PREVIEW ROW (need to match # of 'rect' <span> elements to the # of IMAGES)  -->
+  <!--  PREVIEW ROW  -->
+  <!-- (need to match # of 'rect' <span> elements to the # of IMAGES) -->
   <div class="preview-row">
     <span class="preview target"></span>
     <span class="preview"></span>

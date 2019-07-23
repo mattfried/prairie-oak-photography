@@ -36,7 +36,8 @@
       <img class="portfolio-img" src="img/wedding/wed-15.jpg" alt="newlyweds holding eachother in wheat field" />
       <!-- /WEDDING IMAGES -->
 
-      <!--  PREVIEW ROW (need to match # of 'rect' <span> elements to the # of IMAGES)  -->
+      <!--  PREVIEW ROW  -->
+      <!-- (need to match # of 'rect' <span> elements to the # of IMAGES) -->
       <div class="preview-row">
         <span class="preview target"></span>
         <span class="preview"></span>

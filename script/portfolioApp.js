@@ -9,7 +9,7 @@ const previewImgs = document.getElementsByClassName('preview');
 let counter = 0;
 
 
-// SET INITIAL PORTFOLIO TITLE IMAGE
+// SET INITIAL PORTFOLIO TITLE IMAGE DECLARED IN pageTitle.php
 titleImg.src = portfolioImgs[counter].src;
 titleImg.alt = portfolioImgs[counter].alt;
 
@@ -39,14 +39,14 @@ setPreviewImgs();
 const changeTitleImg = () => {
   titleImg.style.opacity = '0';
   const currentImage = portfolioImgs[counter];
-  
+
   // next, change img & preview img target with setTimeout
   setTimeout( () => {
     titleImg.src = currentImage.src;
     titleImg.alt = currentImage.alt;
     // call function
     setPreviewTarget();
-    
+
     // lastly, img opacity transitioned to '1'
     setTimeout( () => {
       titleImg.style.opacity = '1';
@@ -91,4 +91,3 @@ const arrowClick = e => {
 // LEFT & RIGHT ARROW CLICK EVENT LISTENERS
 leftArrow.addEventListener('click', arrowClick);
 rightArrow.addEventListener('click', arrowClick);
-
