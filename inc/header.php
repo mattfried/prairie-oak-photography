@@ -2,6 +2,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta property="og:title" content="Prairie Oak Photography">
+    <meta property="og:site_name" content="Prairie Oak Photography">
+    <meta property="og:url" content="https://prairieoakphotography.com/">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="business.business">
+    <meta property="og:image" content="https://prairieoakphotography.com/img/wedding/wed-01.jpg">
     <title><?php echo $title;?></title>
     <link rel="stylesheet" href="../css/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300" rel="stylesheet" />
