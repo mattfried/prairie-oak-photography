@@ -15,11 +15,11 @@
     </h1>
     <div class="title-line" id = "page-title-line"></div>
   </div>
-  
+
   <!-- provide slideshow arrows for portfolio pages -->
   <?php if ($arrows) {
     echo
-      '<img id ="left-arrow-portfolio" class="arrow" src="img/leftArrow.svg" alt="left arrow" />
-      <img id ="right-arrow-portfolio" class="arrow" src="img/rightArrow.svg" alt="right arrow" />';
+      '<svg id ="left-arrow-portfolio" class="arrow" alt="left arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
+      <svg id ="right-arrow-portfolio" class="arrow" alt="right arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>';
   } ?>
 </div>

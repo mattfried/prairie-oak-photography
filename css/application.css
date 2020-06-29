@@ -595,6 +595,8 @@ footer {
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
   padding: 20px 10px;
+  stroke: none;
+  fill: #ffffff;
 }
 .arrow:hover {
   opacity: 0.5;
