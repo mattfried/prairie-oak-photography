@@ -23,8 +23,8 @@
       <img class="image-slides" src="img/family/fam-13.jpg" alt="family sitting by a fire in distant campground" />
       <!--  /IMAGES  -->
 
-      <img id ="left-arrow" class="arrow" src="img/leftArrow.svg" alt="left arrow" />
-      <img id ="right-arrow" class="arrow" src="img/rightArrow.svg" alt="right arrow" />
+      <img id ="left-arrow" class="arrow" src="img/leftArrowShape.svg" alt="left arrow" />
+      <img id ="right-arrow" class="arrow" src="img/rightArrowShape.svg" alt="right arrow" />
 
       <div class="page-title-container">
         <h1 class="page-title">
